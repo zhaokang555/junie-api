@@ -42,7 +42,7 @@
 **Anthropic 直通：**
 - 端点：`https://ingrazzio-cloud-prod.labs.jb.gg/v1/messages`
 - 认证：`Authorization: Bearer <token>`（JBA JWT 或 `perm-*` 密钥）
-- 模型 ID：`claude-sonnet-4-6`、`claude-opus-4-6`
+- 模型 ID：`claude-sonnet-5`、`claude-opus-5`
 - 参见 `api-config.ts` 中的 `getAnthropicPassthroughHeaders()`
 
 **OpenAI 直通：**
@@ -59,7 +59,7 @@
 
 ## 模型 ID
 
-Anthropic 模型：`claude-sonnet-4-6`、`claude-opus-4-6`
+Anthropic 模型：`claude-sonnet-5`、`claude-opus-5`
 
 OpenAI 模型（直通，映射为上游名称）：
 - `openai-gpt4.1` → `gpt-4.1-2025-04-14`

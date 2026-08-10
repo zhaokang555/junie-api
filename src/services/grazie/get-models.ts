@@ -5,8 +5,8 @@
  */
 export const KNOWN_MODELS = [
   // Anthropic — native IDs, passthrough to /v1/messages
-  { id: "claude-sonnet-4-6", name: "Claude Sonnet 4.6", provider: "anthropic" as const },
-  { id: "claude-opus-4-6", name: "Claude Opus 4.6", provider: "anthropic" as const },
+  { id: "claude-sonnet-5", name: "Claude Sonnet 5", provider: "anthropic" as const },
+  { id: "claude-opus-5", name: "Claude Opus 5", provider: "anthropic" as const },
 
   // Google — Grazie LLMProfileIDs, translation path
   { id: "google-chat-gemini-pro-2.5", name: "Gemini 2.5 Pro", provider: "google" as const },

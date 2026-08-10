@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "build": "tsdown",
-    "dev": "node --watch --import tsx ./src/main.ts",
+    "dev": "node --watch --import tsx ./src/main.ts start --port 4242 --claude-code",
     "lint": "eslint --cache",
     "prepack": "npm run build",
     "start": "NODE_ENV=production node ./dist/main.js",
