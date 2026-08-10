@@ -23,7 +23,7 @@
     "dev": "node --watch --import tsx ./src/main.ts start --port 4242 --claude-code",
     "lint": "eslint --cache",
     "prepack": "npm run build",
-    "start": "NODE_ENV=production node ./dist/main.js",
+    "start": "NODE_ENV=production node ./dist/main.js start --port 4242 --claude-code",
     "typecheck": "tsc",
     "test": "node --import tsx --test tests/*.test.ts"
   },
