@@ -5,6 +5,7 @@
  */
 export const KNOWN_MODELS = [
   // Anthropic — native IDs, passthrough to /v1/messages
+  { id: "claude-haiku-5-5", name: "Claude Haiku 5.5", provider: "anthropic" as const },
   { id: "claude-sonnet-5-5", name: "Claude Sonnet 5.5", provider: "anthropic" as const },
   { id: "claude-opus-5-5", name: "Claude Opus 5.5", provider: "anthropic" as const },
 

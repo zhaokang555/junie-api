@@ -42,7 +42,7 @@
 **Anthropic 直通：**
 - 端点：`https://ingrazzio-cloud-prod.labs.jb.gg/v1/messages`
 - 认证：`Authorization: Bearer <token>`（JBA JWT 或 `perm-*` 密钥）
-- 模型 ID：`claude-sonnet-5-5`、`claude-opus-5-5`
+- 模型 ID：`claude-haiku-5-5`、`claude-sonnet-5-5`、`claude-opus-5-5`
 - 参见 `api-config.ts` 中的 `getAnthropicPassthroughHeaders()`
 
 **OpenAI 直通：**
